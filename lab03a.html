@@ -1,0 +1,100 @@
+<html>
+	<head>
+		<title>My first web page</title>
+		<style>
+		body
+		{
+			font-family: sans-serif;
+			margin: 36px 36px;
+			background-color: #f0f0f0;
+			color: #ff0033;
+			font-size: 11pt;
+			border: 1px solid #000033;
+			padding: 36ppx;
+			text-align: center;
+			vertical-align: middle;
+		}
+		</style>
+	</head>
+	<body>
+	<!-- https://www.w3.org/TR/html5/ -->
+		<h1>Hello World!</h1>
+		<form action="some.url" method="GET">
+		<form>
+			<input type="hidden" id="secret" name="secret" value="Shhhh, my secret."/>
+			First name: <input type="text" id="firstname" name="firstname"/>
+			<br />
+			Last name: <input type="text" id="lastname" name="lastname"/>
+			<br />
+			Password: <input type="password" id="password" name="password"/>
+			<br />
+			Phone: <input type="tel" id="phone" name="phone"/>
+			<br />
+			Email: <input type="email" id="email" name="email"/>
+			<br />
+			Make your pizza:
+			<br />
+			<input type="checkbox" id="pizza" name="pizza" value="cheese" checked /> Cheese
+			<input type="checkbox" id="pizza" name="pizza" value="pepperoni" /> Pepperoni
+			<input type="checkbox" id="pizza" name="pizza" value="mushrooms" /> Mushrooms
+			<input type="checkbox" id="pizza" name="pizza" value="onions" /> Onions
+			<br />
+			<input type="radio" id="sex" name="sex" value="male" /> Male
+			<input type="radio" id="sex" name="sex" value="female" /> Female
+			<input type="radio" id="sex" name="sex" value="none" /> Prefer not to answer
+			<br />
+			<hr />
+			<br />
+			<select name="class" id="class">
+				<option value="Donald">Donald</option>
+				<option value="Barack">Barack</option>
+				<option value="W">W</option>
+				<option value="Slick Willy">Slick Willy</option>
+				<option value="George">George</option>
+				<option value="Ronnie">Ronnie</option>
+				<option value="Jimmy">Jimmy</option>
+				<option value="Jerry">Jerry</option>
+				<option value="Tricky Dick">Tricky Dick</option>
+			</select>
+			<br />
+			<br />
+			<hr />
+			<br />
+			<select name="class2" id="class2" multiple>
+				<option value="Donald">Donald</option>
+				<option value="Barack">Barack</option>
+				<option value="W">W</option>
+				<option value="Slick Willy">Slick Willy</option>
+				<option value="George">George</option>
+				<option value="Ronnie">Ronnie</option>
+				<option value="Jimmy">Jimmy</option>
+				<option value="Jerry">Jerry</option>
+				<option value="Tricky Dick">Tricky Dick</option>
+			</select>
+			<br />
+			<br />
+			<hr />
+			<br />
+			<select name="class3" id="class3" size=7>
+				<option value="Donald">Donald</option>
+				<option value="Barack">Barack</option>
+				<option value="W">W</option>
+				<option value="Slick Willy">Slick Willy</option>
+				<option value="George">George</option>
+				<option value="Ronnie">Ronnie</option>
+				<option value="Jimmy">Jimmy</option>
+				<option value="Jerry">Jerry</option>
+				<option value="Tricky Dick">Tricky Dick</option>
+			</select>
+			<br />
+			<br />
+			<hr />
+			<br />
+			<textarea name="comment" id="comment" rows=4 cols=60>Leave your comments here.</textarea>
+			<br />
+			<br />
+			<input type="submit" value="Click me" />
+			<input type="reset" value="Clear Form" />
+		</form>
+	</body>
+</html>

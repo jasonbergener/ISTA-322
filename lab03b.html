@@ -1,0 +1,92 @@
+<html>
+	<head>
+		<title>My second web page</title>
+		<style>
+		body
+		{
+			font-family: sans-serif;
+			margin: 36px 36px;
+			background-color: #f0f0f0;
+			color: #ff0033;
+			font-size: 11pt;
+			border: 1px solid #000033;
+			padding: 36ppx;
+			text-align: center;
+		}
+		</style>
+	</head>
+	<body>
+	<!-- https://www.w3.org/TR/html5/ -->
+		<h1>Hello World!</h1>
+		<form action="some.url" method="GET">
+		<form>
+			<table rules="none" align="center">
+			<input type="hidden" id="secret" name="secret" value="Shhhh, my secret."/></td></tr>
+			<tr><td>First name:</td><td><input type="text" id="firstname" name="firstname"/></td></tr>
+			<tr><td>Last name:</td><td><input type="text" id="lastname" name="lastname"/></td></tr>
+			<tr><td>Password:</td><td><input type="password" id="password" name="password"/></td></tr>
+			<tr><td>Phone:</td><td><input type="tel" id="phone" name="phone"/></td></tr>
+			<tr><td>Email:</td><td><input type="email" id="email" name="email"/></td></tr>
+			<tr><td colspan="2"><br /></td></tr>
+			<tr><td colspan="2" style="text-align: center">Make your pizza:</td></tr>
+			<tr><td><input type="checkbox" id="pizza" name="pizza" value="cheese" checked /></td><td>Cheese</td></tr>
+			<tr><td><input type="checkbox" id="pizza" name="pizza" value="pepperoni" /></td><td>Pepperoni</td></tr>
+			<tr><td><input type="checkbox" id="pizza" name="pizza" value="mushrooms" /></td><td>Mushrooms</td></tr>
+			<tr><td><input type="checkbox" id="pizza" name="pizza" value="onions" /></td><td>Onions</td></tr>
+			<tr><td colspan="2"><br /></td></tr>
+			<tr><td colspan="2">
+			<input type="radio" id="sex" name="sex" value="male" /> Male
+			<input type="radio" id="sex" name="sex" value="female" /> Female
+			<input type="radio" id="sex" name="sex" value="none" /> Prefer not to answer
+			</td></tr>
+			<tr><td colspan="2"><br /></td></tr>
+			<tr><td colspan="2" style="text-align: center">Select List</td></tr>
+			<tr><td>Single option list</td><td>
+			<select name="class" id="class">
+				<option value="Donald">Donald</option>
+				<option value="Barack">Barack</option>
+				<option value="W">W</option>
+				<option value="Slick Willy">Slick Willy</option>
+				<option value="George">George</option>
+				<option value="Ronnie">Ronnie</option>
+				<option value="Jimmy">Jimmy</option>
+				<option value="Jerry">Jerry</option>
+				<option value="Tricky Dick">Tricky Dick</option>
+			</select>
+			</td></tr>
+			<tr><td>Multiple option list</td><td>
+			<select name="class2" id="class2" multiple>
+				<option value="Donald">Donald</option>
+				<option value="Barack">Barack</option>
+				<option value="W">W</option>
+				<option value="Slick Willy">Slick Willy</option>
+				<option value="George">George</option>
+				<option value="Ronnie">Ronnie</option>
+				<option value="Jimmy">Jimmy</option>
+				<option value="Jerry">Jerry</option>
+				<option value="Tricky Dick">Tricky Dick</option>
+			</select>
+			</td></tr>
+			<tr><td>Size 7 list</td><td>
+			<select name="class3" id="class3" size=7>
+				<option value="Donald">Donald</option>
+				<option value="Barack">Barack</option>
+				<option value="W">W</option>
+				<option value="Slick Willy">Slick Willy</option>
+				<option value="George">George</option>
+				<option value="Ronnie">Ronnie</option>
+				<option value="Jimmy">Jimmy</option>
+				<option value="Jerry">Jerry</option>
+				<option value="Tricky Dick">Tricky Dick</option>
+			</select>
+			</td></tr>
+			<tr><td colspan="2"><br /></td></tr>
+			<tr><td colspan="2">
+			<textarea name="comment" id="comment" rows=4 cols=60>Leave your comments here.</textarea>
+			</td></tr>
+			<tr style="text-align: center; background-color: blue"><td><input type="submit" value="Click me" /></td>
+			<td><input type="reset" value="Clear Form" /></td></tr>
+			</table>
+		</form>
+	</body>
+</html>
